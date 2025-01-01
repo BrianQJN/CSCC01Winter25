@@ -39,12 +39,14 @@ Without a clear workflow and plan, using Git can lead to a chaotic project with 
 - **Master Branch**: Every commit should be tagged. Typically, direct commits to master are avoided.
 
 - **Develop Branch**: Created from the master branch and serves as the integration branch for features.
+<img src="image/Master Branch.png" width="100%" height="100%" alt="Master Branch">
 
 ### 3.2 Feature Branches
 
 - **Creation**: Feature branches are created from develop.
 
 - **Completion**: After development, merge the feature branch back into develop. It's common practice to delete the feature branch post-merge to maintain repository cleanliness.
+<img src="image/Feature Branch.png" width="100%" height="100%" alt="Feature Branch">
 
 ### 3.3 Release Branches
 
@@ -55,12 +57,14 @@ Without a clear workflow and plan, using Git can lead to a chaotic project with 
 - **Merging**: Once finalized, merge the release branch into both master and develop. Tag the master branch with the release version.
 
 - **Deletion**: After merging, the release branch can be deleted.
+<img src="image/Release Branch.png" width="100%" height="100%" alt="Release Branch">
 
 ### 3.4 Hotfix Branches
 
 - **Creation**: Spawned from the master branch to address urgent issues in production.
 
 - **Merging**: After resolving the issue, merge the hotfix branch into both master and develop. Tag the master branch with the hotfix version.
+<img src="image/Hotfix Branch.png" width="100%" height="100%" alt="Hotfix Branch">
 
 ## 4. Git Flow Command Examples
 
